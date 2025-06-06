@@ -133,8 +133,8 @@ Pytest – Testing framework
 
 👤 Author
 Sudarsan Nallur Murali
-📧 sudarsan.n_m@uconn.edu
-🔗 LinkedIn
+📧 nmsudarsan@gmail.edu
+
 
 📜 License
 This project is open-source and available under the MIT License.
