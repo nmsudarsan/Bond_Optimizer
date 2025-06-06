@@ -1,0 +1,58 @@
+# ── Python bytecode and caches ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ── Pytest and test artifacts ──────────────────────────────────────────────────────────────
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# ── Virtual envs ────────────────────────────────────────────────────────────────────────────
+venv/
+.env/
+env/
+ENV/
+\.venv/
+
+# ── Distribution/build/egg-info ─────────────────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# ── Excel/Generated output files ────────────────────────────────────────────────────────────
+# If you don’t want to check in sample data, you can ignore it here as well.
+optimized_portfolio.xlsx
+# If you don’t want to version the default sample spreadsheet in data/, uncomment below:
+# data/Candidate Optimizer Project.xlsx
+
+# ── IDE/editor files ────────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac/Linux system files
+.DS_Store
+Thumbs.db
+
+# ── Logs and temporary files ────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.swp
+
+# ── Jupyter notebooks ───────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Optional: local configuration or secrets ─────────────────────────────────────────────────
+# (If you have any local config files or .env files, stash them here.)
+.env
+
+# ── Miscellaneous ───────────────────────────────────────────────────────────────────────────
+# If you use coverage reporting, profiling, or other tooling that drops files here:
+.coverage
+.coverage.*
+.cache/

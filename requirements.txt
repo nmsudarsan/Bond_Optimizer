@@ -1,0 +1,10 @@
+pandas
+numpy
+cvxpy
+openpyxl
+pulp
+pytest
+ecos
+ortools==9.9.3963
+streamlit 
+matplotlib
