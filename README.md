@@ -72,7 +72,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 🖥 CLI Usage
+##  CLI Usage
 
 Run from terminal:
 
