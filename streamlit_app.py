@@ -79,7 +79,7 @@ if st.button("🚀 Optimize"):
 
     # Display portfolio key performance indicators (KPIs)
     st.success(
-        f"Portfolio yield {diag['yield_']*100:,.2f}%  "
+        f"Portfolio yield {diag['yield_']:,.2f}%  "
         f"duration {diag['duration']:.2f} yrs  "
         f"avg rating num {diag['rating_num']:.2f}"
     )
