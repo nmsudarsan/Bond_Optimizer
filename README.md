@@ -3,7 +3,7 @@
 
 A Streamlit-based web application and command-line tool to construct an optimal bond portfolio based on yield maximization while respecting constraints on duration, sector exposure, liquidity, and credit quality.
 
-## 🚀 Features
+##  Features
 
 - **Interactive Streamlit App**: Upload your Excel workbook, adjust sector caps and duration bands, and run optimization in real-time.
 - **CVXPY Solver**: Linear programming under the hood to maximize portfolio yield.
@@ -14,7 +14,7 @@ A Streamlit-based web application and command-line tool to construct an optimal 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 BOND_OPTIMIZER/
@@ -42,7 +42,7 @@ BOND_OPTIMIZER/
 
 ---
 
-## 🧠 Optimization Overview
+##  Optimization Overview
 
 The objective is to **maximize portfolio yield** subject to constraints:
 
@@ -55,15 +55,15 @@ The objective is to **maximize portfolio yield** subject to constraints:
 
 ---
 
-## 📊 Streamlit App Usage
+##  Streamlit App Usage
 
-### 🔧 Launch
+### 🔧Launch
 
 ```bash
 streamlit run streamlit_app.py
 ```
 
-### 🧩 Features
+###  Features
 
 - Upload or use default Excel workbook
 - Customize sector caps (0–100%)
@@ -72,7 +72,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 🖥️ CLI Usage
+## 🖥 CLI Usage
 
 Run from terminal:
 
@@ -88,7 +88,7 @@ python -m bond_optimizer.cli --xls path/to/your_data.xlsx --out result.xlsx --sc
 
 ---
 
-## ✅ Running Tests
+##  Running Tests
 
 Install pytest and run tests:
 
@@ -99,7 +99,7 @@ pytest tests/
 
 ---
 
-## 🧾 Excel Format Requirements
+##  Excel Format Requirements
 
 The input workbook must contain:
 
@@ -113,7 +113,7 @@ Columns:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 # Clone repo
@@ -130,7 +130,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 - Python 3.8+
 - Streamlit – UI
@@ -140,10 +140,10 @@ pip install -r requirements.txt
 
 ---
 
-## 👤 Author
+##  Author
 
 **Sudarsan Nallur Murali**  
-📧 nmsudarsan@gmail.edu
+ nmsudarsan@gmail.edu
 
 ---
 
