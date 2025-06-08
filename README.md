@@ -9,8 +9,8 @@ A Streamlit-based web application and command-line tool to construct an optimal 
 - **CVXPY Solver**: Linear programming under the hood to maximize portfolio yield.
 - **Sector and Duration Constraints**: Enforced using sliders or config file overrides.
 - **Liquidity Floor & Rating Controls**: Ensure minimum liquidity and credit quality.
-- **CLI Tool**: Run optimization and stress scenarios (+/-100bps) from the command line.
-- **Tests**: Includes feasibility and scenario-based validation via `pytest`.
+- **CLI Tool**: Run optimization and stress scenarios.
+- **Tests**: Includes feasibility and scenario-based validation.
 
 ---
 
@@ -18,7 +18,7 @@ A Streamlit-based web application and command-line tool to construct an optimal 
 
 ```
 BOND_OPTIMIZER/
-├── notebooks/                  # (Optional) for experiments and analysis
+├── notebooks/                  # for experiments and analysis
 ├── src/
 │   └── bond_optimizer/
 │       ├── __init__.py
