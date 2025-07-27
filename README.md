@@ -143,7 +143,7 @@ pip install -r requirements.txt
 ##  Author
 
 **Sudarsan Nallur Murali**  
- nmsudarsan@gmail.edu
+ nmsudarsan@gmail.com
 
 ---
 
